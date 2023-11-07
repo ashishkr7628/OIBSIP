@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bookstore Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-content-div">
+      <a href="#home-sec">
+        <img src="PHOTOS/logo.png" alt="Company Logo" id="header-img" /></a>
+      <nav id="nav-bar">
+        <a href="" class="nav-link">HOME</a>
+        <a href="#about" class="nav-link">ABOUT</a>
+        <a href="#varieties" class="nav-link">CATEGORIES</a>
+        <a href="#our-service" class="nav-link">OUR SERVICE</a>
+        <a href="#benefits" class="nav-link">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home-sec" class="flexible home-sec">
+      <div class="eye-grabber-img">
+        <img src="PHOTOS/main1.webp" alt="Image of Apples" />
+      </div>
+      <div class="eye-grabber">
+        <h1>Discover. Learn. Grow.</h1>
+        <h2>
+          Empower your personal journey with our curated collection of self-growth books. Explore wisdom, gain insight,
+          and unlock your full potential.
+        </h2>
+        <button class="btn" onclick="window.location.href = '#contact';">
+          Buy Now
+        </button>
+      </div>
+    </section>
+    <section id="about" class="sec-padding">
+      <h3 class="section-heading">ABOUT US</h3>
+      <div class="sec-content-div flexible">
+        <p>
+          Welcome to GrowReads, your gateway to a world of personal growth, self-discovery, and transformation
+          through the pages of enlightening books. At GrowReads, we are dedicated to curating a diverse
+          selection of books that empower individuals to evolve, learn, and flourish.
+
+        <h4 class="sub-heading">Our Mission</h4>
+
+        Our mission at GrowReads is simple yet profound: to facilitate personal growth and empower
+        individuals to lead more meaningful lives. We believe that books hold the power to spark self-awareness,
+        inspire change, and fuel the journey towards becoming the best version of oneself. Our goal is to provide a
+        platform where you can easily access the knowledge and wisdom that can drive your personal evolution.
+        </p>
+        <img src="PHOTOS/about.jpg" alt="" />
+      </div>
+    </section>
+    <section id="varieties" class="sec-padding">
+      <h3 class="section-heading">CATEGORIES</h3>
+      <div class="sec-content-div flexible">
+        <div class="tile">
+          <img src="PHOTOS/book1.webp" />
+          <h4>The Intelligent Investor</h4>
+          <p>
+            It offers timeless wisdom on value investing and managing one's financial future with prudent, researched
+            strategies.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="PHOTOS/book1.jpg" />
+          <h4>Atomic Habits</h4>
+          <p>
+            It provides a practical framework for improving every day by focusing on small, manageable changes that
+            compound into significant life-altering results over time.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="PHOTOS/book2.jpg" />
+          <h4>The Power of Now</h4>
+          <p>
+            It guides readers towards spiritual enlightenment by teaching them to live fully in the present moment and
+            free themselves from the pain of thought-bound past and future.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="PHOTOS/book3.png" />
+          <h4>Outliers</h4>
+          <p>
+            It delves into the myriad factors that contribute to high levels of success, such as timing, culture, and
+            10,000 hours of practice, challenging the notion of self-made achievement.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="PHOTOS/book4.jpg" />
+          <h4>The Life-Changing Magic of Tidying Up</h4>
+          <p>
+            It encourages decluttering and organizing your living space, which can lead to clarity, reduced stress, and
+            improved overall well-being.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="PHOTOS/book5.jpg" />
+          <h4>Quiet</h4>
+          <p>
+            It explores the power of introverts in a world that can't stop talking, revealing how quiet individuals
+            think and work differently and advocating for their valuable contributions to society.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="our-service" class="sec-padding">
+      <h3 class="section-heading">OUR SERVICE</h3>
+      <div class="sec-content-div">
+        <div class="bars">
+          <div class="icon-container">
+            <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Affordable</h5>
+            <p>Unlock growth without breaking the bank – our top self-help picks are priced for your progress.</p>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="icon-container">
+            <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Fast</h5>
+            <p>
+              Our rapid delivery ensures your next breakthrough is just a day away. Order now for swift, seamless
+              service right to your door!
+            </p>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="icon-container">
+            <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Satisfying</h5>
+            <p>
+              We guarantee 100% customer satisfaction. We do our best to make
+              your purchase experience smooth. But if we mess up somehow you
+              will get compensated for every inconvenience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </section>
+    <section id="benefits" class="sec-padding" id="contact">
+      <h3 class="section-heading">CONTACT</h3>
+      <div class="sec-content-div flexible">
+        <h6>To make an order or just to know more contact us :</h6>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <input type="email" name="email" id="email" placeholder="Your Email Address" required />
+          <input type="submit" class="btn" id="submit" value="Know More" />
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Created by
+    <a href="#">Ashish Kumar</a>
+  </footer>
+</body>
+
+</html>
